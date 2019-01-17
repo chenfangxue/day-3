@@ -38,16 +38,25 @@ int main()
             scanf("%c", &xx);
             scanf("%c", &xx);
         }
-        if (code == 2){
-
+        if (code == 2)
+        {
+            if (index > 0)
+            {
+                index--;
+                printf("删除完成，点击回车继续\n");
+                char xx;
+                scanf("%c", &xx);
+                scanf("%c", &xx);
+            }
         }
-        if (code == 3){
-
+        if (code == 3)
+        {
         }
-        if (code == 4){
-
+        if (code == 4)
+        {
         }
-        if (code == 5){
+        if (code == 5)
+        {
             printf("应用已经退出\n");
             break;
         }
